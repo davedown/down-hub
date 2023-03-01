@@ -1,0 +1,47 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Downsito Hub", "Synapse")
+
+-- MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("blox fruits")
+
+
+MainSection:NewButton("Mukuro", "autofarm,kill aura,ect", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+end)
+
+local MainSection = Main:NewSection("aim")
+
+MainSection:NewButton("aimbot", "es un poquito de aim que te da ", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/yeerma/diggabrown/main/sidegriddy'))()
+end)
+
+local MainSection = Main:NewSection("KAT")
+
+MainSection:NewButton("owl hub", "esta es una que todos se saben", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+local MainSection = Main:NewSection("jailbreak")
+
+MainSection:NewButton("Vynixius", "de los mejores xd", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
+end)
+
+local MainSection = Main:NewSection("Michael Zombies")
+
+MainSection:NewButton("Dylan hub", "kill aura,esp,ect", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DylanIsAKingL/Lua-Scripts/main/Michaels-ZombiesV2.lua"))()
+end)
+
+local MainSection = Main:NewSection("Phamton Forces")
+
+MainSection:NewButton("Synapse only", "synapse only xdd", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mikehalesdev/Public/main/Script.lua"))()
+end)
+
+local MainSection = Main:NewSection("BedWars")
+
+MainSection:NewButton("bedwars by monkey", "normal hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/BedWarsMonkey.lua"))()
+end)
